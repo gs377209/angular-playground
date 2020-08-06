@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         }
       },
       "root": "",
@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -92,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -127,6 +127,6 @@
   },
   "defaultProject": "angular-playground",
   "cli": {
-    "analytics": "837666bf-0821-4296-8ea2-cce80373acd8"
+    "analytics": "48f9271e-5c49-4c8d-9873-2405260540a4"
   }
 }
