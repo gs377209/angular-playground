@@ -1,5 +1,7 @@
 # AngularPlayground
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/72c6c3df-1008-43c2-adaa-083645b97011/deploy-status)](https://app.netlify.com/sites/awesome-bell-8a18d9/deploys)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
 ## Development server
