@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { MessagesComponent } from './messages.component';
 
@@ -8,9 +9,9 @@ describe('MessagesComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MessagesComponent ]
-    })
-    .compileComponents();
+      declarations: [MessagesComponent],
+      imports: [HttpClientTestingModule],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
